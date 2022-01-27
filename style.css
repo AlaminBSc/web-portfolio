@@ -1,23 +1,89 @@
 body{
+    margin: 0px;
     font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
 h1{
     font-size: 40px;
 }
 .name-highlight{
-    color:rgb(250, 234, 7)
+    color:rgb(104, 250, 7)
 }
 .half-width{
-    width: 43%;
+    width: 42%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;
+    
 }
 .half-width img{
     width: 90%;
     clip-path:circle() ;
+   
     
+}
+.top-part{
+    background-repeat: no-repeat;
+    background-image:url(imges/top-banner.png);
+}
+section{
+    height: 500px;
+    padding-bottom:100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,black);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 29px;
+}
+.part-two{
+    background-image: url(imges/new.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:100%;
+    
+}
+.rong{
+    color: rgb(238, 174, 13);
+}
+.same-div{
+    box-shadow: 10px 10px 40px grey;
+    height: 90%;
+}
+.experience-jone{
+    background-image: url(imges/last.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#arif{
+    height: 350px;
+}
+#baby-jone{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, rgb(99, 156, 99), rgb(70, 14, 14));
+    border-image-slice: 1;
+    background-color:white;
+}
+#frist-jone{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, rgb(66, 122, 66), rgb(187, 62, 62));
+    border-image-slice: 1;
+    background-color:white;
+}
+footer{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
 }
 
