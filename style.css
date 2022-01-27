@@ -1,0 +1,23 @@
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.name-highlight{
+    color:rgb(250, 234, 7)
+}
+.half-width{
+    width: 43%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 90%;
+    clip-path:circle() ;
+    
+}
+
